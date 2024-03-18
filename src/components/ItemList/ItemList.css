@@ -1,0 +1,13 @@
+.ItemList{
+    margin: auto;
+    width: 70%;
+    min-width: 500px;
+}
+.ItemList .no-results{
+    background-color: rgba(131, 53, 53, 0.7);
+    color: white;
+    padding: 15px 0;
+    width: 500px;
+    margin: 10px auto;
+    border-radius: 5px;
+}

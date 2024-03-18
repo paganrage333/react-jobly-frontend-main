@@ -1,0 +1,23 @@
+.CompanyCard{
+    background-color: white;
+    border: 1px solid black;
+    margin: 15px auto;
+    max-width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+.CompanyCard p{
+    color: black;
+    margin: 8px 0;
+    text-align: left;
+}
+
+.CompanyCard p.company-size{
+    text-align: right;
+    font-size: .8rem;
+}
+
+.CompanyCard:hover{
+    background-color: rgb(252, 241, 192);
+    scale: 102%;
+}

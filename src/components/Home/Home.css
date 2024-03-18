@@ -1,0 +1,31 @@
+.Home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    margin: auto;
+    background-color: rgb(110, 134, 179);
+    color: white;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+.Home button{
+    width: 28%;
+    margin: 10px;
+    background-color: hsl(216, 98%, 52%);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    text-shadow: 3px 2px 6px black;
+}
+
+.Home button:hover{
+    cursor: pointer;
+    background-color: hsl(216, 98%, 45%);
+    outline: 1px solid black;
+}

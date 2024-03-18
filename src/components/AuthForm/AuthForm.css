@@ -1,0 +1,62 @@
+.form-wrapper{
+    background-color: rgba(0, 0, 0,.8);
+    margin: auto;
+    width: 500px;
+    color: white;
+    text-align: left;
+}
+
+.AuthForm{
+    background-color: rgba(255, 255, 255,8);
+    color:black;
+    padding: 1px 20px 10px 20px;
+}
+
+.form-group > *{
+    padding: 10px 0;
+    width: calc(100% - 10px);
+    font-size: 1rem;
+}
+
+.AuthForm label{
+    font-weight: bold;
+}
+
+.AuthForm input{
+    padding-left: 10px;
+    border-radius: 8px;
+    border:1px solid rgb(156, 156, 156);
+}
+
+.AuthForm .form-group{
+    margin: 15px 0;
+}
+
+.form-wrapper > h2{
+    padding:10px 20px 0 20px;
+}
+
+.AuthForm button{
+    margin: 10px auto;
+    width: 100%;
+    background-color: hsl(216, 98%, 52%);
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+
+.AuthForm button:hover{
+    cursor: pointer;
+    background-color: hsl(216, 98%, 45%);
+    outline: 1px solid black;
+}
+
+.form-errors{
+    margin: 5px 0 10px 0;
+    background-color: rgba(255, 0, 0, .4);
+    padding: 1px 0;
+    border-radius: 3px;
+    font-size: .9rem;
+}

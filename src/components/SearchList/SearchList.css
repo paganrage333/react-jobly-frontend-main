@@ -1,0 +1,18 @@
+.SearchList .searchbar{
+    width: calc(70% - 40px);
+    min-width: calc(500px - 40px);
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(223, 248, 255);
+}
+
+.SearchList .searchbar:focus{
+    background-color: rgb(110, 134, 179);
+}
+
+.SearchList .searchbar:focus::placeholder{
+    color:white;
+}

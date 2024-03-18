@@ -1,0 +1,11 @@
+
+.company-info{
+    background-color: rgba(0,0,0,.7);
+    padding: 5px 20px;
+    color: white;
+    border-radius: 15px;
+    text-align: left;
+    margin: auto;
+    width: 70%;
+    min-width: 500px;
+}

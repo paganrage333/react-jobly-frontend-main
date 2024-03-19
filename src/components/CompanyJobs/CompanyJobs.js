@@ -24,7 +24,7 @@ const CompanyJobs = () =>{
             }
         }
         getData()
-    },[handle])
+    })
 
     return(
         <>
